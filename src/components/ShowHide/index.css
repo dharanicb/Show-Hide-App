@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(#fa7257, #fc63a7);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+.icon-container {
+  display: flex;
+  flex-direction: column;
+}
+.names {
+  height: 150px;
+  width: 250px;
+  background-color: #fddddb;
+  font-family: 'Roboto';
+  font-size: 25px;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+button {
+  font-family: 'Bree Serif';
+  font-size: 15px;
+  color: #dd1264;
+  border-radius: 8px;
+  border-width: 0px;
+  background-color: #fddddb;
+  height: 30px;
+  margin: 6px;
+  width: 200px;
+  padding: 5px;
+  align-self: center;
+  margin-right: 30px;
+}
+.space {
+  margin-left: 30px;
+}
